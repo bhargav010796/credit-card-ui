@@ -1,0 +1,31 @@
+.new-credit__controls {
+  gap: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.new-credit__control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.new-credit__control input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+}
+
+.new-credit__control button {
+  font: inherit;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  padding: 0rem 2rem;
+}
+
+.error {
+  color: red;
+}
